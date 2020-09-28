@@ -1,0 +1,57 @@
+.doctor-list-table {
+    & td {
+        vertical-align: middle;
+    }
+}
+
+.filter-menu {
+    & .dropdown-menu {
+        min-width: 15rem;
+    }
+}
+
+.applied-filters {
+    font-size: 80%;
+    & .filter-icon, .filter-items, .filter-remove-icon {
+        padding: 0.25rem 0.6rem;
+    }
+    .filter-icon, .filter-remove-icon {
+        line-height: 1.7;
+        background-color: rgba(0, 0, 0, 0.15);
+        color: #707881;
+    }
+    .filter-items {
+        & span {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            max-width: 65px;
+            line-height: 1.4;
+            // vertical-align: middle;
+        }
+    }
+
+}
+
+.applied-filters-md {
+    font-size: 95%;
+    & .filter-icon, .filter-items, .filter-remove-icon {
+        padding: 0.25rem 0.6rem;
+    }
+    .filter-icon, .filter-remove-icon {
+        line-height: 1.7;
+        background-color: rgba(0, 0, 0, 0.15);
+        color: #707881;
+    }
+    .filter-items {
+        & span {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            max-width: 105px;
+            line-height: 1.4;
+            // vertical-align: middle;
+        }
+    }
+
+}

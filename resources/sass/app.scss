@@ -1,0 +1,17 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+// @import 'variables';
+@import 'admin/style';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'commons';
+@import 'admin/doctor';
+
+html, body {
+    width: 100%;
+    height: 100%;
+}

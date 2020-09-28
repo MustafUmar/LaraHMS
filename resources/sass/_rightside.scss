@@ -1,0 +1,32 @@
+.right-side-wrapper {
+    position: absolute;
+    width: 270px;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    right: -50%;
+    transition: all ease-in-out .3s;
+    z-index: 500;
+
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+
+    & .right-side-action {
+        background-color: #dddfe1;
+
+        & .side-close-btn {
+            // padding: 5px;
+
+            & .btn {
+                border-radius: 50%;
+                // border: 1px solid black;
+                padding: 1px 6px;
+            }
+
+        }
+    }
+
+
+    &.is-active {
+        right: 0;
+    }
+}

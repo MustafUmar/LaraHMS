@@ -1,0 +1,24 @@
+$style-primary-color: #323f53;
+$style-color1: #d9dcde;
+$dark-style: #3A434D;
+
+.bg-lightgray {
+    background-color: $style-color1;
+}
+
+.highlight-table-row {
+    background-color: $style-primary-color;
+    color: white;
+}
+
+.list-short-menu {
+    & .dropdown-menu {
+        min-width: 80px;
+        // left: 50%;
+
+        & .dropdown-item {
+            padding: 0.25rem 0.6rem;
+            text-align: center;
+        }
+    }
+}
